@@ -1,0 +1,284 @@
+<title>Knihovna výkladů her</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: knihovní katalog – nahoře co je nového, pod tím kartotéka her; řádek se rozbalí do záložek výkladu. */
+:root {
+  --bg: #f6f5f1;
+  --surface: #ffffff;
+  --ink: #1f2420;
+  --muted: #5d665f;
+  --line: #dcdcd3;
+  --accent: #b5452b;      /* červená kostka */
+  --accent-soft: #f6e3dc;
+  --felt: #2f5d4e;        /* sukno stolu */
+  --felt-soft: #e1ece7;
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  /* barvy, které používají diagramy převzaté z dokumentů */
+  --cds-text-primary: var(--ink);
+  --cds-text-secondary: var(--muted);
+  --cds-chart-axis: var(--muted);
+  --cds-chart-grid: var(--line);
+  --cds-chart-reference-tint: var(--felt-soft);
+  --cds-chart-categorical-1: var(--felt);
+  --cds-chart-categorical-2: var(--accent);
+  --cds-chart-categorical-3: #8a6d1f;
+  --cds-chart-categorical-4: #3f6aa3;
+  --cds-chart-categorical-5: #7a4f8f;
+  --cds-chart-categorical-6: #4b7d3a;
+  --cds-chart-status-critical: var(--accent);
+  --cds-chart-status-warning: #8a6d1f;
+  --cds-chart-status-success: var(--felt);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #151916; --surface: #1d221f; --ink: #ecefe9; --muted: #a3ada5; --line: #333b35;
+    --accent: #e57a5c; --accent-soft: #3a2620; --felt: #8cc3ae; --felt-soft: #22322b;
+    --cds-chart-categorical-3: #d9b95c; --cds-chart-categorical-4: #8db1e0; --cds-chart-categorical-5: #c29bd6; --cds-chart-categorical-6: #9dc98a; --cds-chart-status-warning: #d9b95c;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #151916; --surface: #1d221f; --ink: #ecefe9; --muted: #a3ada5; --line: #333b35;
+  --accent: #e57a5c; --accent-soft: #3a2620; --felt: #8cc3ae; --felt-soft: #22322b;
+  --cds-chart-categorical-3: #d9b95c; --cds-chart-categorical-4: #8db1e0; --cds-chart-categorical-5: #c29bd6; --cds-chart-categorical-6: #9dc98a; --cds-chart-status-warning: #d9b95c;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55; }
+.wrap {
+  max-width: 980px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 32px 64px;
+}
+header { display: grid; gap: 12px; margin-bottom: 20px; }
+.eyebrow { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--felt); font-weight: 700; }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.05; margin: 0; text-wrap: balance; }
+.lede { color: var(--muted); max-width: 62ch; margin: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 14px; color: var(--muted); }
+
+.news { background: var(--felt-soft); border-radius: 10px; padding: 14px 16px; margin-bottom: 20px; display: grid; gap: 6px; }
+.news-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.news h2 { font-family: var(--font-display); font-size: 1.1rem; margin: 0; color: var(--felt); }
+.news-date { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.news p { margin: 0; font-size: 15px; }
+.news a { color: inherit; text-underline-offset: 2px; }
+.news details { font-size: 14px; }
+.news summary { cursor: pointer; color: var(--muted); }
+.news-old { display: grid; gap: 8px; margin-top: 8px; }
+
+.tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 8px 0 20px; }
+.search { flex: 1 1 260px; min-width: 0; }
+.search input { width: 100%; padding: 11px 14px; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.search input:focus-visible, .chip:focus-visible, .row-head:focus-visible, .copy:focus-visible, .tab:focus-visible, .news a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: inherit; font-size: 14px; padding: 7px 12px; border-radius: 999px; cursor: pointer; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--felt); border-color: var(--felt); color: var(--bg); }
+.count { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.list { display: grid; border-top: 1px solid var(--line); }
+.row { border-bottom: 1px solid var(--line); min-width: 0; }
+.row-head { width: 100%; text-align: left; font: inherit; color: inherit; background: none; border: 0; cursor: pointer; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; padding: 14px 4px; align-items: baseline; }
+.row-head > span { min-width: 0; overflow-wrap: anywhere; }
+.row-head:hover .name { color: var(--accent); }
+.name { font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; line-height: 1.25; }
+.date { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.meta { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 14px; color: var(--muted); }
+.tag { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: var(--felt-soft); color: var(--felt); font-weight: 700; }
+.tag.solo, .tag.new { background: var(--accent-soft); color: var(--accent); }
+.tag.new { text-transform: uppercase; letter-spacing: .04em; }
+.style { grid-column: 1 / -1; font-size: 14px; color: var(--muted); }
+
+.card { margin: 0 4px 20px; padding: 16px 20px 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; min-width: 0; }
+.card-tools { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 14px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 4px; }
+.tab { font: inherit; font-size: 14px; padding: 6px 12px; border-radius: 8px; border: 1px solid transparent; background: none; color: var(--muted); cursor: pointer; }
+.tab[aria-selected="true"] { background: var(--felt-soft); color: var(--felt); font-weight: 700; }
+.copy { font: inherit; font-size: 13px; padding: 5px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); cursor: pointer; }
+.note { font-size: 14px; color: var(--muted); background: var(--bg); border-radius: 8px; padding: 8px 12px; margin: 0 0 12px; }
+.md { min-width: 0; overflow-wrap: anywhere; }
+.md h2 { font-family: var(--font-display); font-size: 1.25rem; margin: 22px 0 8px; }
+.md h3 { font-family: var(--font-display); font-size: 1.05rem; margin: 18px 0 6px; }
+.md h4 { font-size: 1rem; margin: 14px 0 4px; }
+.md > :first-child { margin-top: 0; }
+.md p { margin: 8px 0; max-width: 70ch; }
+.md ul, .md ol { margin: 6px 0; padding-left: 22px; max-width: 70ch; }
+.md li { margin: 3px 0; }
+.md li > p { margin: 2px 0; }
+.md .tbl { overflow-x: auto; margin: 8px 0; }
+.md table { border-collapse: collapse; width: 100%; font-size: 15px; }
+.md th, .md td { text-align: left; vertical-align: top; padding: 7px 10px; border-bottom: 1px solid var(--line); }
+.md th { color: var(--muted); font-size: 13px; letter-spacing: .04em; text-transform: uppercase; }
+.md th p, .md td p { margin: 0; }
+.md td:first-child { font-weight: 700; }
+.md a { color: var(--felt); }
+.schema { margin: 14px 0; }
+.schema-plocha { overflow-x: auto; }
+.schema svg { display: block; width: 100%; min-width: 600px; height: auto; font-family: var(--font-body); }
+.schema figcaption { font-size: 13px; color: var(--muted); margin-top: 4px; }
+.none { padding: 24px 4px; color: var(--muted); }
+footer { margin-top: 28px; font-size: 13px; color: var(--muted); }
+@media (prefers-reduced-motion: no-preference) {
+  .card { animation: open .18s ease-out; }
+  @keyframes open { from { transform: translateY(-4px); opacity: .6; } to { transform: none; opacity: 1; } }
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Herní večery · výklady a pomocné karty</div>
+    <h1>Knihovna výkladů her</h1>
+    <p class="lede">Ke každé hře je tu česká pomocná karta pro hráče a postupně přibývají celé výklady. Kliknutím na hru ji rozbalíte.</p>
+    <div class="legend" aria-label="Značky">
+      <span>🗣️ říká se nahlas</span><span>🔴 častá chyba</span><span>💡 nápověda</span><span>❓ ověřit v krabici</span>
+    </div>
+  </header>
+
+  <section class="news" id="news" aria-label="Co je nového" hidden></section>
+
+  <div class="tools">
+    <label class="search" for="q"><input id="q" type="search" title="Hledá v názvu, vydání, rozšířeních i v textu karet" placeholder="Hledat hru, rozšíření, mechaniku…" autocomplete="off"></label>
+    <div class="chips" role="group" aria-label="Filtr">
+      <button class="chip" id="f-all" title="Zobrazit všechny hry" data-f="all" aria-pressed="true">Vše</button>
+      <button class="chip" id="f-new" title="Hry přidané nebo upravené v posledním vydání" data-f="new" aria-pressed="false">Nové</button>
+      <button class="chip" id="f-full" title="Hry s celým výkladem, nejen pomocnou kartou" data-f="full" aria-pressed="false">Celý výklad</button>
+      <button class="chip" id="f-cz" title="Hry v českém vydání" data-f="cz" aria-pressed="false">České vydání</button>
+      <button class="chip" id="f-solo" title="Hry, které jdou hrát i sólo" data-f="solo" aria-pressed="false">Sólo</button>
+    </div>
+    <span class="count" id="count" aria-live="polite"></span>
+  </div>
+
+  <div class="list" id="list"><div class="none">Načítám seznam her…</div></div>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+let HRY = [], NOVINKY = [], POSLEDNI = 0;
+const obsahy = new Map();
+const state = { q: '', f: 'all', open: new Set(), tab: new Map() };
+
+const fold = s => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const esc = s => (s || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const isCz = g => /(^|\b)(česk|cesk)/i.test(g.vydani || '');
+const isSolo = g => /sólo|solo/i.test((g.vydani || '') + ' ' + (g.styl || '')) && !/bez sóla|jen trénink/i.test((g.vydani || '') + ' ' + (g.styl || ''));
+const isNew = g => POSLEDNI > 0 && g.verze === POSLEDNI;
+
+try { const s = JSON.parse(localStorage.getItem('kv-filter') || 'null'); if (s && s.f) state.f = s.f; } catch (e) {}
+
+const seznam = (polozky, f) => polozky.map(f).join(', ');
+const odkazHry = p => `<a href="#${p.slug}">${esc(p.hra)}</a>`;
+function vetyVydani(n) {
+  const v = [];
+  if (n.popis) v.push(`<p>${esc(n.popis)}</p>`);
+  if (n.pridano.length) v.push(`<p><strong>Přibylo (${n.pridano.length}):</strong> ${seznam(n.pridano, odkazHry)}</p>`);
+  if (n.upraveno.length) v.push(`<p><strong>Upraveno (${n.upraveno.length}):</strong> ${seznam(n.upraveno, p => `${odkazHry(p)} <span class="news-date">(${esc(p.co.join(', '))})</span>`)}</p>`);
+  if (n.odebrano.length) v.push(`<p><strong>Odebráno:</strong> ${esc(n.odebrano.join(', '))}</p>`);
+  return v.join('');
+}
+function renderNews() {
+  const el = document.getElementById('news');
+  if (!NOVINKY.length) { el.hidden = true; return; }
+  const [n, ...stare] = NOVINKY;
+  el.innerHTML = `<div class="news-head"><h2>Co je nového</h2><span class="news-date">vydání ${n.verze} · ${esc(n.datum)}</span></div>${vetyVydani(n)}` +
+    (stare.length ? `<details><summary>Starší vydání (${stare.length})</summary><div class="news-old">${stare.map(s => `<div><span class="news-date">vydání ${s.verze} · ${esc(s.datum)}</span>${vetyVydani(s)}</div>`).join('')}</div></details>` : '');
+  el.hidden = false;
+}
+
+function karta(g) {
+  const o = obsahy.get(g.slug);
+  if (!o) return '<div class="none">Načítám výklad…</div>';
+  if (o.chyba) return `<div class="none">Výklad se nepodařilo načíst. Zkontrolujte připojení a hru rozbalte znovu.</div>`;
+  const vybrana = state.tab.get(g.slug) || 0;
+  const z = o.zalozky[vybrana] || o.zalozky[0];
+  const tabs = o.zalozky.length > 1 ? `<div class="tabs" role="tablist">${o.zalozky.map((t, i) => `<button class="tab" role="tab" aria-selected="${i === vybrana}" data-tab="${i}" data-slug="${g.slug}">${esc(t.nazev)}</button>`).join('')}</div>` : '<div></div>';
+  const pozn = o.jenKarta ? `<p class="note">Zatím je tu jen pomocná karta ve stavu k ${esc(g.datum)}. Celý výklad přibude.</p>` : '';
+  return `<div class="card-tools">${tabs}<button class="copy" data-copy="${g.slug}" title="Zkopíruje odkaz, který otevře přímo tuto hru">Kopírovat odkaz na hru</button></div>${pozn}<div class="md">${z.html}</div>`;
+}
+
+function render() {
+  const q = fold(state.q.trim());
+  const items = HRY.filter(g => (!q || g.hay.includes(q)) && (state.f === 'all' || (state.f === 'new' && isNew(g)) || (state.f === 'full' && g.plny) || (state.f === 'cz' && isCz(g)) || (state.f === 'solo' && isSolo(g))));
+  document.getElementById('count').textContent = items.length + ' z ' + HRY.length + ' her';
+  const list = document.getElementById('list');
+  if (!items.length) { list.innerHTML = '<div class="none">Žádná hra neodpovídá hledání. Zkuste kratší slovo nebo filtr „Vše“.</div>'; return; }
+  list.innerHTML = items.map(g => {
+    const open = state.open.has(g.slug);
+    const tags = [isNew(g) ? '<span class="tag new">nové</span>' : '', g.plny ? '<span class="tag">celý výklad</span>' : '', isCz(g) ? '<span class="tag">CZ</span>' : '', isSolo(g) ? '<span class="tag solo">sólo</span>' : ''].join('');
+    return `<section class="row" id="${g.slug}">
+      <button class="row-head" aria-expanded="${open}" aria-controls="c-${g.slug}" data-slug="${g.slug}" title="${open ? 'Sbalit' : 'Rozbalit'}">
+        <span class="name">${esc(g.hra)}</span><span class="date">${esc(g.datum)}</span>
+        <span class="meta">${tags}<span>${esc(g.vydani)}</span></span>
+        <span class="style">${esc(g.styl)}</span>
+      </button>
+      ${open ? `<div class="card" id="c-${g.slug}">${karta(g)}</div>` : ''}
+    </section>`;
+  }).join('');
+}
+
+async function otevri(slug) {
+  state.open.add(slug);
+  render();
+  if (obsahy.has(slug) && !obsahy.get(slug).chyba) return;
+  try {
+    const r = await fetch('data/hry/' + slug + '.json');
+    if (!r.ok) throw new Error(r.status);
+    obsahy.set(slug, await r.json());
+  } catch (e) { obsahy.set(slug, { chyba: true }); }
+  render();
+}
+
+document.getElementById('list').addEventListener('click', e => {
+  const c = e.target.closest('.copy');
+  if (c) {
+    const url = location.href.split('#')[0] + '#' + c.dataset.copy;
+    const done = () => { c.textContent = 'Odkaz zkopírován'; setTimeout(() => { c.textContent = 'Kopírovat odkaz na hru'; }, 1600); };
+    try { navigator.clipboard.writeText(url).then(done, () => { c.textContent = url; }); } catch (err) { c.textContent = url; }
+    return;
+  }
+  const t = e.target.closest('.tab');
+  if (t) { state.tab.set(t.dataset.slug, Number(t.dataset.tab)); render(); return; }
+  const h = e.target.closest('.row-head');
+  if (!h) return;
+  const s = h.dataset.slug;
+  if (state.open.has(s)) { state.open.delete(s); render(); } else { try { history.replaceState(null, '', '#' + s); } catch (err) {} otevri(s); }
+});
+document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; render(); });
+document.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {
+  state.f = b.dataset.f;
+  document.querySelectorAll('.chip').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  try { localStorage.setItem('kv-filter', JSON.stringify({ f: state.f })); } catch (e) {}
+  render();
+}));
+document.querySelectorAll('.chip').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.f === state.f)));
+
+async function zHashe() {
+  const s = decodeURIComponent(location.hash.slice(1));
+  if (!s || !HRY.some(g => g.slug === s)) return;
+  if (state.f !== 'all') { state.f = 'all'; document.querySelectorAll('.chip').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.f === 'all'))); }
+  state.q = ''; document.getElementById('q').value = '';
+  await otevri(s);
+  const el = document.getElementById(s); if (el) el.scrollIntoView({ block: 'start' });
+}
+window.addEventListener('hashchange', zHashe);
+
+(async () => {
+  try {
+    const [k, n] = await Promise.all([fetch('data/katalog.json').then(r => r.json()), fetch('data/novinky.json').then(r => r.json())]);
+    HRY = k; NOVINKY = n;
+    POSLEDNI = NOVINKY.length ? NOVINKY[0].verze : 0;
+    HRY.forEach(g => { g.hay = fold([g.hra, g.vydani, g.styl, g.text].join(' ')); });
+    if (!HRY.some(isNew) && state.f === 'new') state.f = 'all';
+    renderNews();
+    render();
+    const plnych = HRY.filter(g => g.plny).length;
+    document.getElementById('foot').textContent = `${HRY.length} her, z toho ${plnych} s celým výkladem. Pravidla jsou souhrny pro výklad u stolu; při sporu platí pravidla v krabici.`;
+    zHashe();
+  } catch (e) {
+    document.getElementById('list').innerHTML = '<div class="none">Seznam her se nepodařilo načíst. Zkuste stránku otevřít znovu.</div>';
+  }
+})();
+</script>
