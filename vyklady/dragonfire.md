@@ -86,7 +86,7 @@ Prohlédni si ho před prvním tahem. Barvy: černá Fighter (bojovník), modrá
 ## Vydání a zdroje
 
 - **Hra:** Dragonfire (Catalyst Game Labs, 2017), Dungeons & Dragons, Zapomenuté říše. Kooperativní budování balíčku pro 1–6 hráčů.
-- **Máš:** základní hru, příběhová rozšíření (Adventure Packs) a balíčky hrdinů (Character Packs). Hraješ sólo kampaň. ❓ \[ověřit podle krabice\], které konkrétní tituly máš; výčet vydaných je ve Výkladu v oddílu Rozšíření.
+- **Máš:** základní hru a z rozšíření jen balíčky hrdinů (Character Packs): Heroes of the Sword Coast a Heroes of the Wild. Heroes of the Underdark nemáš: byl jen ohlášen mezi připravovanými rozšířeními a nikdy nevyšel. Adventure Packs, kampaně, Treasures ani Solo nemáš. Podrobnosti ve Výkladu v oddílu Rozšíření.
 - **Obsah základu:** 16 Character screens (štítků postav; 4 Class Types – třídy, 5 ras), 8 karet Adventure (dobrodružství), balíčky Encounters (setkání: Dungeon, Wilderness, City, Adventurers), Market (trh), magické předměty a nálepky Feature (schopnosti). Základ jde do 5. úrovně.
 - **Zdroj pravidel:** oficiální pravidla (PDF), recenze a sólo recenze. ❓ Pravidla Stun (omráčení), Unconscious (bezvědomí), prohry a kampaně porovnej s knihou pravidel, ty body jsou **\[ověřit\]**.
 - **NotebookLM:** sešit nemáš, návrh obsahu je v oddílu První hra a příprava.
@@ -145,6 +145,10 @@ Body jsou z oficiálních pravidel a recenzí ([Beyond Solitaire](https://www.be
 
 * [Dragonfire: nové produkty (ICv2)](https://icv2.com/print/article/41149): Moonshae Storms, Heroes of the Wild, A Corruption in Calimshan, Ravaging the Sword Coast, Sword Mountains Crypt
 * [Dragonfire: launch kit (ICv2)](https://icv2.com/print/article/38071): Wondrous Treasures, Heroes of the Sword Coast, první Adventure Packs
+* [Heroes of the Sword Coast (Golden Goblin Games)](https://www.goldengoblingames.com/en/dragonfire-character-pack-heroes-of-the-sword-coast.html): 32 Character screens, povolání a rasy, 27 karet Market
+* [Heroes of the Wild (Board Game Bliss)](https://www.boardgamebliss.com/products/dragonfire-character-pack-heroes-of-the-wild): obsah balíčku (rasy podle ICv2 odkazu výše)
+* [Heroes of the Wild (Golden Goblin Games)](https://www.goldengoblingames.com/en/dragonfire-heroes-of-the-wild.html): nové karty Market, Feature podtříd, rasa Githyanki místo Aasimar
+* [Přehled rozšíření (Board Game Directory, data z BGG)](https://boardgame-directory.vercel.app/games/226501): vydaná rozšíření a ohlášená, ale nevydaná (Heroes of the Underdark, Waterdeep, Solo Adventuring)
 * [Sea of Swords (Board Game Bliss)](https://www.boardgamebliss.com/products/dragonfire-adventures-sea-of-swords): obsah Adventure Packu
 * [Moonshae Storms (Board Game Bliss)](https://www.boardgamebliss.com/collections/all/products/dragonfire-campaign-moonshae-storms): obsah Campaign Box
 * Pravidla míchání rozšíření: kniha pravidel základní hry (části Environments and Encounters, Building the Market, Character Class, Magic Items), viz první odkaz výše. Oficiální pravidla jednotlivých rozšíření (pravidlové listy v krabicích) jsem nenašel, ❓ \[ověřit podle krabice\].
@@ -193,7 +197,7 @@ Body jsou z oficiálních pravidel a recenzí ([Beyond Solitaire](https://www.be
 
 ## Když přidáš rozšíření
 
-- **Character Pack (balíček hrdinů):** nové Character Classes (povolání) a rasy. Každá Character Class patří do jednoho ze čtyř Class Types (tříd), barva se nemění. Kartu uvedenou na konci řádku Equipment Pack (základní karty), tedy běžnou kartu Market nebo zvláštní Basic kartu, přidej k běžným Basic kartám.
+- **Character Pack (balíček hrdinů):** Sword Coast přidá Bard, Druid, Ranger, Warlock; Wild přidá Sorcerer a Barbarian. Nové Character Classes (povolání) a rasy a nové karty Market. Každá Character Class patří do jednoho ze čtyř Class Types (tříd), barva se nemění. Kartu uvedenou na konci řádku Equipment Pack (základní karty), tedy běžnou kartu Market nebo zvláštní Basic kartu, přidej k běžným Basic kartám.
 - **Adventure Pack (příběhová sada):** Encounters do Encounter Decku (balíčku setkání) podle ikony (20 až 40 karet, z rozšíření všechny nebo žádné). Market: základních 60 zůstává, nejvýš 80 celkem, nejvýš 6 karet na hráče ze své Character Class.
 - **🔴 Nejčastěji se zapomíná:** přidat jen část Encounters z rozšíření, odebrat něco ze základních 60 karet Market nebo přidat kartu Character Class, která ve družině není.
 - Konkrétní Adventure může tato pravidla změnit, pak platí jeho text. ❓ \[ověřit podle pravidlového listu v krabici\]
@@ -274,9 +278,14 @@ Rozšíření nemění základní kolo ani tah, jednotlivá Adventure ale můžo
 
 **Character Pack (balíček hrdinů)**
 
-- **Co přidá:** nové Character screens, tedy nové Character Classes (povolání) a rasy, a k nim nálepky Feature. Každá nová Character Class patří do jednoho ze čtyř Class Types, takže barvy platí dál a družina má mít pořád všechny čtyři Class Types.
+- **Vyšly dva:** Heroes of the Sword Coast a Heroes of the Wild. Každý má 32 Character screens, archy nálepek Feature a nové karty Market (Sword Coast podle obchodu 27 karet Market, cena Wild 24,99 USD, vyšel na podzim 2018). **Heroes of the Underdark nevyšel:** je jen v seznamu ohlášených, ale nevydaných rozšíření (spolu s kampaní Waterdeep a Solo Adventuring). Tento balíček nemáš, nic z něj se ve výkladu nepoužívá.
+- **Heroes of the Sword Coast:** nová povolání Bard, Druid, Ranger a Warlock, nové rasy Rock Gnome, Tiefling, Lightfoot Halfling a Gold Dwarf. Má čtyři nová povolání, proto se nejvíc hodí, když chceš vyměnit celou základní družinu.
+- **Heroes of the Wild:** povolání Sorcerer a Barbarian, rasy Lizardfolk, Tabaxi, Kenku a Aasimar (podle ICv2; popis Golden Goblin Games uvádí místo Aasimar Githyanki, ❓ ověřit podle krabice). Navíc nové karty Market a Feature pro podtřídy (například Forge Domain, Cavalier, War Magic, Assassin). Barbarian jako povolání poprvé přinesla Moonshae Storms, Heroes of the Wild k němu přidává další Character screens, takže ho máš i bez kampaňové krabice.
+- **Která povolání patří do které třídy (Class Type):** ❓ [ověřit na Character screens]. Zdroje to nepíšou. Podle barvy na štítku zjistíš, za koho ho dosadíš (Fighter černá, Wizard modrá, Cleric zelená, Rogue červená).
+- **Co přidá obecně:** nové Character screens, tedy nové Character Classes (povolání) a rasy, k nim nálepky Feature a nové karty Market. Každá nová Character Class patří do jednoho ze čtyř Class Types, takže barvy platí dál a družina má mít pořád všechny čtyři Class Types.
 - **Jak se zapojí:** hrdinu vybereš při přípravě místo základního. Některé nové Character screens mají na konci řádku Equipment Pack navíc běžnou kartu Market nebo zvláštní Basic kartu (například Color Spray nebo Tinker): vezmeš běžné Basic karty (základní karty) a uvedenou kartu k nim přidáš. Kromě obecných Feature bez požadavků smíš brát jen Feature pro svou Character Class a svou rasu.
 - **Kdy:** kdykoli skládáš družinu, třeba pro novou kampaň nebo když chceš hrát jinou Character Class než základní čtyři.
+- **Jen s Character Packs (bez Adventure Packs):** postup je jednoduchý. Při přípravě vyber hrdiny (jeden za každý Class Type), vezmi jejich Equipment Pack a nálepky Feature jen pro jejich povolání a rasu. Encounter Decky zůstanou základní. Character Packs ale přidávají i karty Market, a ty se míchají stejně jako u Adventure Packs: základních 60 karet zůstává, celkem nejvýš 80, každý hráč přidá nejvýš 6 karet jen ze své Character Class a karty s požadavkem Requires X Class jen tehdy, když takový hrdina ve družině je (podrobně v odstavci Market u Adventure Pack níže). 💡 Pro první hru s novými hrdiny vezmi známou základní družinu a vyměň jen jednoho hrdinu za hrdinu z Packu.
 
 **Adventure Pack (příběhová sada, řada Dragonfire Adventures)**
 
@@ -296,10 +305,11 @@ Rozšíření nemění základní kolo ani tah, jednotlivá Adventure ale můžo
 
 **Vydané tituly** ❓ \[ověřit, které jsou v krabici\]
 
-- **Character Packs:** Heroes of the Sword Coast (Bard, Druid, Ranger, Warlock) a Heroes of the Wild (Barbarian, Sorcerer; rasy Lizardfolk, Tabaxi, Kenku a Aasimar).
+- **Character Packs:** Heroes of the Sword Coast (Bard, Druid, Ranger, Warlock; rasy Rock Gnome, Tiefling, Lightfoot Halfling, Gold Dwarf) a Heroes of the Wild (Barbarian, Sorcerer; rasy Lizardfolk, Tabaxi, Kenku a Aasimar, ❓ nebo Githyanki). Heroes of the Underdark byl jen ohlášen a nevyšel.
 - **Adventure Packs:** Shadows Over Dragonspear Castle, Chaos in the Trollclaws, Sea of Swords, A Corruption in Calimshan, Ravaging the Sword Coast, Sword Mountains Crypt (Sea of Swords je 3. kapitola, další tři jsou 4. až 6.; ❓ pořadí prvních dvou).
-- **Campaign Box:** Moonshae Storms (❓ další box, plánovaný Waterdeep, nepotvrzeno).
-- **Magic Item Decks:** Wondrous Treasures, ❓ Hidden Treasures.
+- **Campaign Box:** Moonshae Storms.
+- **Magic Item Decks:** Wondrous Treasures, Hidden Treasures.
+- **Ohlášené, ale nevydané:** Heroes of the Underdark, kampaň Waterdeep, Adventures Insanity in the Abyss, Into the Abyss a Undermountain Madness, Solo Adventuring.
 
 ## Obrázek kola
 

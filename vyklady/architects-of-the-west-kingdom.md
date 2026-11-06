@@ -367,7 +367,7 @@ Z čeho jsou body na konci:
 
 ### Tah v jednom obrázku
 
-[[obrázek architects-of-the-west-kingdom-2: tah · jeden služebník, pět druhů lokací, body a konec hry]]
+[[obrázek architects-of-the-west-kingdom-2: tah · jeden služebník, čtyři skupiny lokací, body a konec hry]]
 
 Služebník na lokaci dá tím víc, čím víc tam máš služebníků. Body se tvoří hlavně na Radnici, kde se zároveň plní místa, jejichž zaplnění ukončí hru.
 

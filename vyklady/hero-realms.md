@@ -68,7 +68,7 @@ Komiks ukazuje první tah se 3 kartami. Hráč B má v prvním tahu 5 karet, a p
 
 - **Hra:** Hero Realms (2016), autoři Robert Dougherty a Darwin Kastle, vydavatel White Wizard Games, dnes Wise Wizard Games. Fantasy verze hry Star Realms. 2–4 hráči, 144 karet ([BGG](https://boardgamegeek.com/boardgame/198994/hero-realms)).
 - **Vydání:** anglické – **White Wizard Games (dnes Wise Wizard Games)**. Oficiální české vydání neexistuje, české obchody prodávají anglickou verzi ([TLAMA games](https://www.tlamagames.com/deskove-hry/hero-realms/): „Hra je v angličtině“). V roce 2017 zaměstnanec Asmodee na Zatrolených hrách napsal, že česká verze je kvůli ceně licence nerealizovatelná ([diskuse](https://www.zatrolene-hry.cz/spolecenska-hra/hero-realms-6413/diskuse/ceske-vydani-13487/)). Zatrolené hry uvádějí češtinu jen „ke stažení“.
-- **Rozšíření, která máš:** Character Packs (balíčky postav: Cleric, Fighter, Ranger, Thief, Wizard), Journeys (Conquest, Discovery, Hunters, Travelers), Ancestry (rasy), Boss Decks (balíčky bossů: Dragon, Lich), vše anglicky. Kampaň Ruin of Thandar ani The Lost Village nemáš. ❓ \[ověřit, že všechny čtyři balíčky Journeys jsou skutečně u tebe\]. Pravidla jsou v oddílu Rozšíření záložky Výklad.
+- **Rozšíření, která máš:** Character Packs (balíčky postav: Cleric, Fighter, Ranger, Thief, Wizard), Journeys (Conquest, Discovery, Hunters, Travelers), Ancestry (rasy), Boss Decks (balíčky bossů: Dragon, Lich), vše anglicky. Kampaň Ruin of Thandar ani The Lost Village nemáš. Pravidla jsou v oddílu Rozšíření záložky Výklad.
 - **Český název:** žádný, všude jen Hero Realms.
 - **Fanouškovské české materiály jako pomůcka** ([Zatrolené hry, ke stažení](https://www.zatrolene-hry.cz/spolecenska-hra/hero-realms-6413/k-stazeni/)): překlad pravidel (Pelly, 2017; stažení vyžaduje přihlášení), pravidla sólové hry (endymion), Boss Hydra, karty postav. Fanouškovské české karty k tisku jsou odkazované v diskusi.
 - **Pojmy v tomto výkladu**: zásadní herní pojmy jsou anglicky jako na kartách, v každé záložce poprvé s českým vysvětlením v závorce. Slovníček je v záložce Pro hráče.
@@ -117,7 +117,7 @@ Komiks ukazuje první tah se 3 kartami. Hráč B má v prvním tahu 5 karet, a p
 - **Boss Decks – příprava:** Dragon má startovní balíček 10 až 18 karet podle počtu hrdinů, 9 karet Treasure Hoard (hromada pokladů) zamíchej do samostatného balíčku lícem dolů, nepatří do startovního balíčku Dragona. Lich: zamíchej 6 Soul Jars (nádoby duše) a lícem dolů jich polož tolik, kolik je hrdinů, vrchní odkryj a nastav Health podle ní; 10 Minion karet (přisluhovači) zamíchej do Grimoire (kniha kouzel). Družina dostane po 3 kartách, boss normální ruku. Hrdinové sedí kolem bossa; sousedi jsou levý a pravý.
 - **Co tisknout nebo mít po ruce:** tužka a papír nebo score cards na Health Mastera a bossa (Health Dragona nad 159 veď na papíře, kostkami nebo dalšími score cards).
 - **Spoilery kampaně:** Adventure Book čti jen k aktuálnímu Encounter. Tady nejsou žádné informace o jeho obsahu.
-- **Journeys – příprava:** pokud hrajete s Quests, přidejte k nim vždy Artifacts (obojí z Conquest nebo Discovery). Zamíchej Quest karty a rozdej každému tři lícem dolů. Zamíchej Artifacts, dej každému hráči dva do samostatného Artifact Decku lícem dolů a zbytek zamíchej do Market Decku. Hunters a Travelers jen zamíchej do Market Decku.
+- **Journeys – příprava:** pokud hrajete s Quests, přidejte k nim vždy Artifacts (obojí z Conquest nebo Discovery). Zamíchej Quest karty a rozdej každému tři lícem dolů. Zamíchej Artifacts, odpočítej dva na každého hráče do jednoho společného Artifact Decku lícem dolů a zbytek zamíchej do Market Decku. Hunters a Travelers jen zamíchej do Market Decku.
 - **Ancestry – příprava:** každý hráč si vybere rasu (nebo zůstane Human), vezme její 4 karty, Ancestry card a ancestral skill nebo ability položí před sebe do hry, upraví startovní Health a zbylé dvě karty zamíchá do startovního balíčku ("Replaces: Gold" nahradí jednu kartu Gold).
 
 ## Zdroje
@@ -201,7 +201,7 @@ Komiks ukazuje první tah se 3 kartami. Hráč B má v prvním tahu 5 karet, a p
 | Character Pack · Character Points · Treasure · Elixir | balíček postavy · body postavy · poklad · lektvar |
 | skill · ability · Additional Health · Support · Focus | dovednost · schopnost postavy · dodatečné zdraví · podpora (lze i v tahu souseda) · soustředění (lze působit i do jiných oblastí) |
 | Boss · party · Soul Jar · Treasure Hoard · Skill Check · Taunt | boss · družina · nádoba duše · hromada pokladů · zkouška (odhození karet za dostatečnou cenu) · vyprovokování |
-| Quest · Artifact · Artifact Deck | úkol (tajný cíl) · artefakt (odměna za úkol) · samostatný balíček artefaktů |
+| Quest · Artifact · Artifact Deck | úkol (tajný cíl) · artefakt (odměna za úkol) · společný balíček artefaktů za splněné úkoly (2 karty na hráče) |
 | Ancestry card · Human · Replaces: Gold | karta rasy (mění Health) · člověk (hra bez rasy) · nahradí jednu kartu Gold ve startovním balíčku |
 
 ## Připomenutí na 2 minuty
@@ -348,7 +348,7 @@ Základní hra: deckbuilding (stavění balíčku) pro 2–4 hráče, souboj ka�
 - **Samotná základní hra oficiální sólo nemá.** Je to souboj 2–4 hráčů ([herorealms.com](https://www.herorealms.com/base-game-rules)).
 - **Kampaň Ruin of Thandar** je spolupráce 1–5 hráčů proti Master (hlavnímu nepříteli), kterého neřídí hráč, ale jeho balíček. Má 3 Encounters (střetnutí). Potřebuje základní hru a **jeden Character Pack (balíček postavy) na hráče**. Po každém Encounter můžete získat Treasure cards (poklady) nebo Character Points (body postavy) a trvale vylepšit svůj balíček, skill (dovednost) nebo ability (schopnost postavy). Oficiální pravidla počítají i s 1 hráčem. Sólo s jednou postavou je podle týmu „nejspíš zvládnutelné“, ale těžké ([BGG](https://boardgamegeek.com/thread/1729017)). Kampaň nemáš, Character Packs ano; podrobnosti jsou v oddílu Rozšíření níže.
 - **Challenge cards (výzvy**: Tibus, Hydra) jsou oficiálně „pro sólo i spolupráci proti bossům“ ([herorealms.com](https://www.herorealms.com/challenge-cards)). Hydra je ke stažení zdarma jako tisk a hraj. Tato výzva Hydra (jiná věc než týmový formát Hydra výše) je pro 1–5 hráčů a hraje se buď s obecnými startovními balíčky, nebo s balíčky z Character Packs (pravidla Hydry, PDF).
-- **Boss decks (bossové: Dragon, Lich)** nejsou sólo: bossa řídí živý hráč proti družině (party) 1–5 hrdinů, kteří hrají s Character Packs ([herorealms.com](https://www.herorealms.com/bosses)). Máš je. ❓ \[ověřit podle krabice, zda máš Dragon, Lich, nebo oba\]
+- **Boss decks (bossové: Dragon, Lich)** nejsou sólo: bossa řídí živý hráč proti družině (party) 1–5 hrdinů, kteří hrají s Character Packs ([herorealms.com](https://www.herorealms.com/bosses)). Máš oba, Dragon i Lich.
 - Na Zatrolených hrách je fanouškovská „Pravidla sólové hry“ (2017). Nejsou oficiální. ❓ \[ověřit obsah\]
 
 🔧 **Prakticky:** se základní hrou se hru naučíš sám tak, že odehraješ dva balíčky proti sobě (viz Učíme se hrát). Opravdové sólo nabízí výzva Hydra (tisk a hraj) a kampaň s Character Packem (tu zatím nemáš).
@@ -403,8 +403,8 @@ Všechna rozšíření jsou v angličtině; máš Character Packs, Journeys, Anc
 - **Čtyři balíčky po 12 kartách:** Conquest a Discovery obsahují Quests (úkoly) a Artifacts (artefakty) a pravidla. Hunters a Travelers obsahují nové Champions a Actions a product guide, žádné Quests ani Artifacts. Na kartách se používá slovo Artifact, ne Relic.
 - **Hunters a Travelers:** zamíchej jejich karty do Market Decku a hraj jako dřív. Jsou to jen další Champions a Actions.
 - **Quests:** kdo hraje s Quests, musí hrát i s Artifacts. Před hrou zamíchej Quest karty a rozdej každému tajně tři (volitelně pět, z nich si každý ponechá tři). Podmínky splnění jsou v textu karty. Splněnou Quest smíš odevzdat v Main Phase, nejvýš jednu za tah; jde na Sacrifice Pile. Kdo splní všechny tři, vyhrává.
-- **Artifacts:** před hrou dej každému hráči dva Artifacts do samostatného Artifact Decku lícem dolů, zbytek zamíchej do Market Decku. Za splněnou Quest odkryješ vrchní kartu Artifact Decku a smíš ji téhož tahu v Main Phase získat zdarma; jinak jde na Sacrifice Pile. Artifacts lze použít i bez Quests: pak všechny jdou do Market Decku. Při získání se řiď textem karty (některé jdou do ruky nebo na vrch balíčku).
-- **Počet hráčů:** jedna sada Conquest nebo Discovery má 6 Quests, takže pro třech a více hráčů po třech Quests nestačí. ❓ \[ověřit, zda pravidla dovolují smíchat Conquest s Discovery\]
+- **Artifacts:** před hrou zamíchej Artifacts a odpočítej dva na každého hráče do jednoho společného Artifact Decku lícem dolů (pro dva hráče tedy 4 karty), zbytek zamíchej do Market Decku. Za splněnou Quest odkryješ vrchní kartu Artifact Decku a smíš ji téhož tahu v Main Phase získat zdarma; jinak jde na Sacrifice Pile. Artifacts lze použít i bez Quests: pak všechny jdou do Market Decku. Při získání se řiď textem karty (některé jdou do ruky nebo na vrch balíčku).
+- **Počet hráčů:** jedna sada Conquest nebo Discovery má 6 Quests a 6 Artifacts. Stačí tedy přesně pro dva hráče po třech Quests; volitelné pravidlo s pěti Quests na hráče ani hra ve třech s jednou sadou nevyjdou. Pravidla (jeden společný list pro Conquest i Discovery) smíchání obou sad nezakazují ani výslovně nepovolují; píšou jen „zamíchej Quest karty“. 🔧 Pro 3–4 hráče nebo pro pět Quests na hráče zamíchej obě sady dohromady. ❓ \[smíchání oficiálně nepotvrzené, ověřit\]
 - **Kdy je zapojit:** Hunters a Travelers kdykoli, když tě Market nudí. Quests až po několika partiích základu, protože hra pak má druhý cíl vedle Health.
 
 ### Ancestry: co přidává a jak ji nasadit
@@ -418,8 +418,8 @@ Všechna rozšíření jsou v angličtině; máš Character Packs, Journeys, Anc
 ### Jak se rozšíření kombinují
 
 - **Character Pack + Ancestry:** každý hráč si vybere svůj pack i rasu zvlášť. Rasa se přidá k startovnímu balíčku z packu a Health upraví Ancestry card. Elven Grace působí na karty Bless, Shoulder Bash, Track, Pick Pocket a Channel z packů, ať mají na kartě typ Ability (první vydání packů) nebo Skill (kampaň). Všechny tvé packy jsou tedy v pořádku.
-- **Boss proti hráčům:** boss je jeden hráč s balíčkem Dragon nebo Lich, hrdinové mají každý svůj Character Pack. Ancestry hrdina přidat smí, protože se hodí ke každému packu; použití proti bossovi pravidla Bossů výslovně nezmiňují. ❓ \[ověřit\]
-- **Journeys s ostatním:** Hunters a Travelers jdou do Market Decku, Quests a Artifacts mění cíl hry mezi hráči. S Boss Decks a Quests pravidla nepočítají, proto Quests dej jen do hry hráč proti hráči. ❓ \[ověřit\]
+- **Boss proti hráčům:** boss je jeden hráč s balíčkem Dragon nebo Lich, hrdinové mají každý svůj Character Pack. Ancestry hrdina přidat smí: pravidla Ancestry dovolují kteroukoli rasu „with any Character Pack“ a pravidla Bossů (2017, starší než Ancestry) nic nezakazují. Vyváženost ras proti bossovi oficiálně popsaná není; rasy jsou laděné proti Human.
+- **Journeys s ostatním:** Hunters a Travelers jdou do Market Decku, Quests a Artifacts mění cíl hry mezi hráči. Pravidla Quests ani Bossů jejich spojení neřeší (Quests dávají výhru jednomu hráči, kdežto proti bossovi vyhrává celá družina) a FAQ na herorealms.com o tom také mlčí. 🔧 Proto dej Quests jen do hry hráč proti hráči. Hunters a Travelers smíš zamíchat do Market Decku i proti bossovi. ❓ \[Quests proti bossovi oficiálně neřešené\]
 - **Doporučené pořadí:** po 2–3 partiích základu Ancestry (jedna rasa na hráče), pak Character Packs, pak Quests z Journeys, nakonec Boss Decks.
 
 ## Tah v jednom obrázku
