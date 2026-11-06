@@ -1,0 +1,13 @@
+{
+  "name": "vyklady-her-nastroje",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "sestav": "node sestav.mjs",
+    "nahled": "node sestav.mjs nahled"
+  },
+  "dependencies": {
+    "marked": "12.0.2"
+  }
+}
