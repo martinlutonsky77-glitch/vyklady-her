@@ -3,3 +3,4 @@
 | Datum | Commit | Co |
 | --- | --- | --- |
 | 6. 11. 2026 | f5bb5a5 | Obnova z textů: 202 her (187 celých výkladů, 15 pomocných karet), zdroj pravdy v repozitáři, nástroj sestav.mjs, vydání č. 3. Obrázky jen u Abyss, Archa Nova, Call to Adventure. |
+| 6. 11. 2026 | 743bb10 | Vydání č. 4: obrázky u 20 her (7 Wonders – Chronicles of Drunagor), Hero Realms a Dragonfire doplněné o rozšíření. Nástroj nastroje/obrazky.mjs (kontrola, náhled, chybí). |
