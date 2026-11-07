@@ -83,7 +83,7 @@ Oficiální sólo hra nemá, takže si ji vyzkoušíš **ve dvou rukách** s var
 2. **Sbírej** suroviny podle terénu kolem města.
 3. **Pokrok:** zaplať 2 jídla, např. za Rybaření (přístav) nebo Mýty (chrám).
 4. **Stavěj:** 1 jídlo + 1 ruda + 1 dřevo = budova a +1 VB.
-5. Po 3 kolech **fáze stavu**: cíle, pokrok zdarma, karty.
+5. Po 3 kolech **fáze stavu**: cíle, 2 pokroky zdarma (kratší hra), karty.
 
 💡 Napovídej: „Druhá aktivace stejného města zhorší náladu. Radši aktivuj různá města.“
 
