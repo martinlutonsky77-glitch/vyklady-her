@@ -305,7 +305,7 @@ Nauč se hru sám tak, že si ji odehraješ za dva hráče. Pravidla mají 24 st
 3. Za druhého hráče umísti pomocníka na kartu lesa (panel 2). Pamatuj, že ve dvou i ve třech hráčích je na každé kartě lesa dostupné jen jedno ze dvou míst.
 4. Za prvního hráče vylož kartu, kterou zaplatíš. Stavbu platíš surovinami, tvora bobulemi. Když máš stavbu z levého horního rohu karty tvora, tvor je zadarmo a položíš na stavbu žeton obyvatele (panel 3 a 4).
 5. Za druhého hráče vylož kartu z Louky a na Louku hned doplň novou.
-6. Když jednomu z hráčů dojdou pomocníci, může se připravit na další roční období. Zkus to jednou, ať vidíš, jak se pomocníci vracejí domů a co přibude (panel 5).
+6. Když jednomu z hráčů dojdou pomocníci, může se připravit na další roční období. Zkus to jednou, ať vidíš, jak se pomocníci vracejí domů a co přibude (panel 6).
 
 💡 Napovídej sobě: „Nevím, co dělat.“ Zeptej se: mám volného pomocníka? Mám suroviny na kartu v ruce nebo na Louce? Když ani jedno, připravuješ se na další roční období.
 
