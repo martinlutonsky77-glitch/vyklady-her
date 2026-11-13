@@ -8,3 +8,4 @@
 | 7. 11. 2026 | f98e9eb | Vydání č. 6: obrázky u 16 her (Cloudspire – Everdell, várky 7, 10, 11, 12), Everdell: odkaz na panel 6. |
 | 13. 11. 2026 | 5046bdb | Vydání č. 7: nové výklady Cthulhu: I smrt může zemřít, Cthulhu: Temné časy, Království Valerie, Zloba (hry z tabulky herní akce). Obrázky zatím chybí. |
 | 13. 11. 2026 | 27d6541 | Vydání č. 8: nové výklady Eternal Decks, Lobotomy 2: Manhunt, The Elder Scrolls: Zrada v druhém věku, Xia (hry z tabulky herní akce). Obrázky zatím chybí. |
+| 13. 11. 2026 | fcd8d42 | Vydání č. 9: nové výklady Cryo, The Bad Karmas and the Curse of the Zodiac, Vampire: The Masquerade – Milan Uprising (hry z tabulky herní akce). Obrázky zatím chybí. |
