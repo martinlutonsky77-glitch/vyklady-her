@@ -14,7 +14,7 @@ const DIAGRAMY = path.join(KOREN, 'diagramy');
 const VYSTUP = path.join(os.tmpdir(), 'vyklady-nahled');
 const PROHLIZECE = ['C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', 'C:/Program Files/Google/Chrome/Application/chrome.exe'];
 
-const jmena = arg => arg.length ? arg.map(a => a.replace(/\.html$/, '')) : fs.readdirSync(DIAGRAMY).map(f => f.replace(/\.html$/, ''));
+const jmena = arg => arg.length ? arg.map(a => a.replace(/\.html$/, '')) : fs.readdirSync(DIAGRAMY).filter(f => f.endsWith('.html')).map(f => f.replace(/\.html$/, ''));
 
 function kontrola(arg) {
   let chyb = 0;
@@ -46,7 +46,7 @@ function nahled(arg) {
 }
 
 function chybi() {
-  const hotove = new Set(fs.readdirSync(DIAGRAMY).map(f => f.replace(/\.html$/, '')));
+  const hotove = new Set(fs.readdirSync(DIAGRAMY).filter(f => f.endsWith('.html')).map(f => f.replace(/\.html$/, '')));
   const podleHry = {};
   for (const f of fs.readdirSync(path.join(KOREN, 'vyklady'))) {
     for (const m of fs.readFileSync(path.join(KOREN, 'vyklady', f), 'utf8').matchAll(/^\[\[obrázek ([a-z0-9-]+): (.*?)\]\]$/gm)) {

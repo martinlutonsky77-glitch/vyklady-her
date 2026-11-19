@@ -16,7 +16,7 @@ const dnes = () => { const d = new Date(); return `${d.getDate()}. ${d.getMonth(
 function nactiHry() {
   const radky = rozeberKnihovnu(fs.readFileSync(path.join(KOREN, 'knihovna.md'), 'utf8'));
   const obrazky = {};
-  for (const f of fs.readdirSync(path.join(KOREN, 'diagramy'))) obrazky[f.replace(/\.html$/, '')] = fs.readFileSync(path.join(KOREN, 'diagramy', f), 'utf8');
+  for (const f of fs.readdirSync(path.join(KOREN, 'diagramy')).filter(f => f.endsWith('.html'))) obrazky[f.replace(/\.html$/, '')] = fs.readFileSync(path.join(KOREN, 'diagramy', f), 'utf8');
   const videne = new Set();
   const hry = radky.map(r => {
     if (videne.has(r.slug)) throw new Error(`Soubor ${r.slug}.md je v knihovně dvakrát.`);
