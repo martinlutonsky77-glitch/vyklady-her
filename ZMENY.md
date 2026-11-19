@@ -13,3 +13,4 @@
 | 19. 11. 2026 | 8e19811 | Vydání č. 11: nové výklady Guards of Atlantis II, Hrady v Burgundsku, Moon Colony Bloodbath, War Chest (hry z tabulky herní akce). Obrázky zatím chybí. |
 | 19. 11. 2026 | fc43de4 | Vydání č. 12: nové výklady Avalon: The Riven Veil, Bus, Nemesis: Retaliation, Root (hry z tabulky herní akce). Obrázky zatím chybí. |
 | 19. 11. 2026 | b6b4849 | Vydání č. 13: komiks k Busu, první obrázek nakreslený přes ChatGPT (WebP). |
+| 19. 11. 2026 | deb999f | Vydání č. 14: průběh kola k Busu, obrázek z ChatGPT (WebP). |
