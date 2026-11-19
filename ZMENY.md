@@ -10,3 +10,4 @@
 | 13. 11. 2026 | 27d6541 | Vydání č. 8: nové výklady Eternal Decks, Lobotomy 2: Manhunt, The Elder Scrolls: Zrada v druhém věku, Xia (hry z tabulky herní akce). Obrázky zatím chybí. |
 | 13. 11. 2026 | fcd8d42 | Vydání č. 9: nové výklady Cryo, The Bad Karmas and the Curse of the Zodiac, Vampire: The Masquerade – Milan Uprising (hry z tabulky herní akce). Obrázky zatím chybí. |
 | 18. 11. 2026 | d96a90b | Vydání č. 10: nové výklady Concordia Venus, Deep Rock Galactic, Ethnos, Hegemonie, Project: ELITE, Zkáza na orbitě (hry z tabulky herní akce). Obrázky zatím chybí. |
+| 19. 11. 2026 | 8e19811 | Vydání č. 11: nové výklady Guards of Atlantis II, Hrady v Burgundsku, Moon Colony Bloodbath, War Chest (hry z tabulky herní akce). Obrázky zatím chybí. |
