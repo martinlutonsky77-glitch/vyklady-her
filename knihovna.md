@@ -16,11 +16,13 @@ Nová hra = nový soubor a nový řádek, řazeno podle abecedy.
 | Among Cultists | anglické + rozšíření z kampaně; 4–8 hráčů | týmy a cíle, noc, kolo po fázích, 5 bloků; moduly až od druhé hry | [among-cultists](vyklady/among-cultists.md) | 18. 10. 2026 |
 | Archa Nova (Ark Nova) | České (MINDOK), základní hra; sólo i ve více | Prohlídka plánu a 4 bloky, bodování hned po cíli | [archa-nova-ark-nova](vyklady/archa-nova-ark-nova.md) | 31. 10. 2026 |
 | Architects of the West Kingdom | České (TLAMA games 2019), s rozšířeními | 7 krátkých bloků s prohlídkou plánu a bodováním hned po cíli | [architects-of-the-west-kingdom](vyklady/architects-of-the-west-kingdom.md) | 31. 10. 2026 |
+| Avalon: The Riven Veil | Anglické (Shadowborne Games, Rulebook v2) + The Fey, The Mistwalkers, Myths & Monsters; pravidla The Fey a Myths & Monsters neveřejná ❓ | Výuka po fázích (Mist, Preparation, War Phase), 4 bloky | [avalon-the-riven-veil](vyklady/avalon-the-riven-veil.md) | 19. 11. 2026 |
 | Azul | České (MINDOK) + Křišťálová mozaika (pravidla rozšíření ❓) | Celé najednou ve 4 krátkých blocích, pak hrát | [azul](vyklady/azul.md) | 4. 11. 2026 |
 | Beyond the Sun | Anglické (Rio Grande), základní hra, tisk ❓; 2–4 hráči | Mapa předem, výklad po fázích tahu v 5 blocích | [beyond-the-sun](vyklady/beyond-the-sun.md) | 1. 11. 2026 |
 | Bitoku | České (REXhry/Devir) + Resutoran (Conversations, Kodamas, Festival; pravidla z francouzského vydání, názvy ❓); sólo i ve více | Mapa desky předem → tah v 5 blocích podle ročních období; sólo proti tengu | [bitoku](vyklady/bitoku.md) | 29. 10. 2026 |
 | Block and Key | Anglické, základní hra; jen ve více hráčích | Celý výklad najednou ve 4 krátkých blocích, stavění předvést na stole | [block-and-key](vyklady/block-and-key.md) | 31. 10. 2026 |
 | Bomb Busters | České, jen základ | Tichá dedukce → jedna akce → rozbuška a vybavení | [bomb-busters](vyklady/bomb-busters.md) | 28. 10. 2026 |
+| Bus | Anglické, Complete Edition (Capstone Games + Splotter Spellen 2024) | Výuka po akcích, mapa předem, 4 bloky | [bus](vyklady/bus.md) | 19. 11. 2026 |
 | CABO (Kabo) | České (MINDOK 2021); 2–4 hráči | Celý výklad najednou, pak hrát | [cabo-kabo](vyklady/cabo-kabo.md) | 1. 11. 2026 |
 | Cacao | České (Albi 2015), základní hra | Celý výklad najednou ve 3 blocích, bez mapy | [cacao](vyklady/cacao.md) | 31. 10. 2026 |
 | Call to Adventure | Anglické: základ + Epic Origins + The Name of the Wind; sólo i ve více | Bodování hned po cíli → tah s legendou run → Adversary a konec; 4 bloky; učit podle pravidel Epic Origins, sólo kampaní Chapter One | [call-to-adventure](vyklady/call-to-adventure.md) | 29. 10. 2026 |
@@ -122,6 +124,7 @@ Nová hra = nový soubor a nový řádek, řazeno podle abecedy.
 | Nanolith | Anglické + Deluxe Expansion (Deluxe Upgrade & Arena; pravidla ❓); sólo i ve více | jen souboj, kampaň vedou knihy; po fázích kola, 5 bloků | [nanolith](vyklady/nanolith.md) | 18. 10. 2026 |
 | Nekojima | Anglické (Unfriendly Games), základní hra; kooperace, soupeření i sólo | Celý výklad najednou, pak hrát | [nekojima](vyklady/nekojima.md) | 1. 11. 2026 |
 | Nemesis | České (Mindok) + Den poté, Psychonauti, Karnomorfové; sólo, kooperace i soupeření | Po blocích s mapou kola předem | [nemesis](vyklady/nemesis.md) | 2. 11. 2026 |
+| Nemesis: Retaliation | Anglické (Awaken Realms), základní krabice; rozšíření jen vyjmenovaná | Po blocích s mapou kola předem; rozdíly proti Nemesis zvlášť | [nemesis-retaliation](vyklady/nemesis-retaliation.md) | 19. 11. 2026 |
 | Nezastavitelní (Unstoppable) | české (REXhry), základ + Tyrančin pád; sólo | kolo v 5 fázích se smyčkou hrozba → karta; 4 bloky; záložka Učíme se hrát | [nezastavitelni-unstoppable](vyklady/nezastavitelni-unstoppable.md) | 21. 10. 2026 |
 | Nidavellir | České (TLAMA games, CZ/EN) + Thingvellir + Idavoll (pojmy Idavollu ❓) | Celý výklad najednou ve 3 blocích, bodování hned na začátku | [nidavellir](vyklady/nidavellir.md) | 5. 11. 2026 |
 | Oathsworn: Into the Deepwood | Anglické (Shadowborne Games), vše z krabice ❓; pravidla z přepisu; sólo i ve více | Výuka po fázích s mapou předem, 7 bloků | [oathsworn-into-the-deepwood](vyklady/oathsworn-into-the-deepwood.md) | 2. 11. 2026 |
@@ -150,6 +153,7 @@ Nová hra = nový soubor a nový řádek, řazeno podle abecedy.
 | Renature | EN (Deep Print / Capstone) + Valley | Celý výklad najednou, bodování hned po cíli, ukázkový tah; Valley až po první hře | [renature](vyklady/renature.md) | 19. 10. 2026 |
 | Res Arcana | České; Lux et Tenebrae, Perlae Imperii, Res Arcana Duo | Motor z 8 karet, ke stolu (sólo jen trénink) | [res-arcana](vyklady/res-arcana.md) | 28. 10. 2026 |
 | Robot Quest Arena | Anglické + robot packy Jaws, Kettle, Dozer | Kostky zdraví = body → baterie a nákup → pohyb a strčení → souboj; bez sóla | [robot-quest-arena](vyklady/robot-quest-arena.md) | 28. 10. 2026 |
+| Root | České (Fox in the Box / Tlama Games), všechno, co vyšlo; Zákon hry 4. vyd. 2023 | Výuka po frakcích: společný základ, pak frakce zvlášť, 4 bloky | [root](vyklady/root.md) | 19. 11. 2026 |
 | Rumble in the Dungeon | České | Tajné postavy → pohyb a rvačka → truhla → body; blaf | [rumble-in-the-dungeon](vyklady/rumble-in-the-dungeon.md) | 29. 10. 2026 |
 | Sagrada | České (MINDOK 2018) + rozšíření pro 5 a 6 hráčů, Passio (Passion), Nativitas (Life), pojmy z obsahu krabice ❓; sólo na cílové skóre i ve více | Celý výklad najednou (\~8 min), úkoly hned po cíli, zlaté pravidlo ukázat na kostkách; učení přes sólo | [sagrada](vyklady/sagrada.md) | 29. 10. 2026 |
 | Seas of Havoc | Anglické Captain's Deluxe (základ + Sea Monster + Buried Treasure); sólo i ve více | po fázích (Ostrov, Moře), bodování hned po cíli, ukázka na plánu; 3 bloky | [seas-of-havoc](vyklady/seas-of-havoc.md) | 20. 10. 2026 |
